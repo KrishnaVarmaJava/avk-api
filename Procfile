@@ -1,1 +1,1 @@
-web: gunicorn plaindjango.wsgi:application --log-file - 
+web: gunicorn specialpark.wsgi --pythonpath=specialpark --log-file -
